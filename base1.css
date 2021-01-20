@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.w {
+	width: 1480px;
+	margin: 0 auto;
+}
+.style-red{
+	color: #999999;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?n566jl');
+  src:  url('../fonts/icomoon.eot?n566jl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?n566jl') format('truetype'),
+    url('../fonts/icomoon.woff?n566jl') format('woff'),
+    url('../fonts/icomoon.svg?n566jl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.logo{
+	margin-left: 250px;
+	margin-top: 10px;
+}
+.top{
+	position: relative;
+}
+.top h1{
+	margin: auto 0;
+}
+.top b{
+	display: block;
+	color: #545454;
+	height: 35px;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: normal;
+	margin-top:30px ;
+	position: absolute;
+	top: 0;
+	left: 29%;
+}
+.message {
+	position: absolute;
+	right: 30%;
+	top: 45px;
+}
+.message img{
+	height: 27px;
+	width: 25px;
+	position: absolute;
+	right: 133px;
+	top: -1px;
+	cursor: pointer;
+}
+.message a{
+	text-decoration: none;
+	color: #999999;
+	font-size: 14px;
+}
+.message a:hover{
+	text-decoration: underline;
+	color: #F10215;
+}
+.banner{
+	width: 100%;
+	height: 45px;
+	background-color:#fff8f0;
+	position: relative;
+}
+.wrapper i{
+	font-family:'icomoon';
+	font-style: normal;
+	position: absolute;
+	left: 322px;
+	bottom: 22%;
+}
+.wrapper p{
+	display: inline-block;
+	margin-left: 350px;
+	margin-top: 17px;
+	height: 15px;
+	font-size: 12px;
+}
+.wrapper a {
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 13px;
+	color:#333;
+}
+.wrapper a:hover{
+	text-decoration: underline;
+}
+.footer{
+	display: block;
+	margin: 20px auto;
+	width: 990px;
+	height: 85px;
+
+}
+.links{
+	width: 990px;
+	height: 18px;
+	background-color:white;
+}
+.links a{
+	text-decoration: none;
+	font-size: 13px;
+	padding:0 13px;
+	color: #666;
+}
+.forget a:hover,.links a:hover{
+	text-decoration: underline;
+	color: #E93854;
+}
+.links span {
+	display: inline-block;
+	height: 16px;
+	width: 1px;
+	background-color: #666666;
+}
+.copyright{
+	margin:20px 0;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+}
